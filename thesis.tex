@@ -1,0 +1,121 @@
+
+\documentclass[11pt,a4paper]{report}                                   
+
+\usepackage[T1]{fontenc}
+\usepackage{kpfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\usepackage{a4}
+\usepackage[english]{babel}
+\usepackage{subfiles}
+\usepackage{acronym}
+\usepackage{tocbibind}
+\usepackage{cmap}
+\usepackage{listingsutf8}
+\usepackage{color}
+
+\newcommand{\thema}{Architektur für ein webbasiertes graphisches Modellierungsframework}
+\newcommand{\schlagworte}{Modelgetriebene Softwareentwicklung, Webapplikation, Architektur}
+\newcommand{\zusammenfassung}{TBD}
+\newcommand{\ausgabedatum}{01.10.2017}
+\newcommand{\abgabedatum}{01.04.2018}
+\newcommand{\autor}{Philipp Daniels}
+\newcommand{\autorStrasse}{Rheingutstraße 30}
+\newcommand{\autorPLZ}{78462}
+\newcommand{\autorOrt}{Konstanz}
+\newcommand{\autorGeburtsort}{Mannheim}
+\newcommand{\autorGeburtsdatum}{03.02.1989}
+\newcommand{\prueferA}{Prof. Dr. Marko Boger}
+\newcommand{\prueferB}{Prof. Dr. Markus Eiglsperger}
+\newcommand{\firma}{HTWG}
+\newcommand{\studiengang}{Master of Science Informatik}
+
+%PDF linking package
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+% hyperref customization
+\hypersetup{
+    pdftitle    ={\thema}, % title
+    pdfsubject	={\thema}, % subject of the document
+    pdfauthor	={\autor}, % author
+    pdfkeywords	={}, % list of keywords
+    pdfcreator	={}, % creator of the document
+    pdfproducer	={}, % producer of the document
+    colorlinks=false, % false: boxed links; true: colored links
+    linkcolor=red, % color of internal links (change box color with linkbordercolor)
+    citecolor=green, % color of links to bibliography
+    filecolor=magenta, % color of file links
+    urlcolor=cyan, % color of external links
+    unicode=true, % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true, % show Acrobat’s toolbar?
+    pdfmenubar=true, % show Acrobat’s menu?
+    pdffitwindow=false, % window fit to page when opened
+    pdfnewwindow=true % links in new PDF window
+}
+
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\lstdefinelanguage{JavaScript}{
+  keywords={break, case, catch, class, continue, const, constructor, debugger, default, delete, do, else, export, false, finally, for, function, get, if, import, in, instanceof, let, new, null, return, switch, this, throw, true, try, typeof, var, void, while},
+  morecomment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  morestring=[b]',
+  morestring=[b]",
+  keywordstyle=\color{blue}\bfseries,
+  identifierstyle=\color{black},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  sensitive=true
+}
+
+\lstset{
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    frame=single,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    stepnumber=1,
+    tabsize=2,
+    title=\lstname,
+    inputencoding=utf8/latin1
+}
+
+\newcommand{\theHchoice}{\arabic{question}.\arabic{choice}}
+
+\begin{document}
+
+\hypersetup{pageanchor=false}
+
+\include{cover}
+\include{title}
+
+\hypersetup{pageanchor=true}
+\pagenumbering{Roman} 
+\setcounter{page}{1}
+
+\include{abstract}
+\include{tableofcontents}
+\include{content/acronym}
+\include{list-of-figures}
+\include{list-of-listings}
+
+\pagenumbering{arabic} 
+\setcounter{page}{1}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+
+%Content
+
+\include{content/appendix}
+\include{bibliography}
+
+\end{document}
