@@ -106,14 +106,17 @@
 \include{list-of-figures}
 \include{list-of-listings}
 
+%Content
 \pagenumbering{arabic} 
 \setcounter{page}{1}
-
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.5}
-
-%Content
+\renewcommand\chaptername{Kapitel}
+\include{content/introduction}
+\include{content/state-of-the-art}
+\include{content/solution}
+\include{content/summary}
 
 \include{content/appendix}
 \include{bibliography}
