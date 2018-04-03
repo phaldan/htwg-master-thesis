@@ -1,0 +1,8 @@
+./stats.sh 'object '
+./stats.sh 'case object '
+./stats.sh 'class '
+./stats.sh 'case class '
+./stats.sh 'abstract class '
+./stats.sh 'trait '
+./stats.sh ' extends '
+./stats.sh ' with [A-Z]'
