@@ -1,0 +1,269 @@
+<scoverage 
+statement-count="80" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1521303351171">
+    <packages>
+        <package name="de.htwg.zeta.metamodelrelease" statement-count="80" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="de.htwg.zeta.metamodelrelease.Main" filename="de/htwg/zeta/metamodelrelease/Main.scala" statement-count="44" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="de.htwg.zeta.metamodelrelease/Main/&lt;none&gt;" statement-count="44" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2148" end="2148" line="71" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1721" end="1971" line="52" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1795" end="1796" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1199" end="1212" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1062" end="1080" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1793" end="1808" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1326" end="1379" line="43" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1155" end="1155" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1488" end="2248" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2052" end="2100" line="67" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2198" end="2210" line="73" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1515" end="1560" line="47" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1199" end="1199" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1016" end="1049" line="35" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1896" end="1906" line="57" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1155" end="1174" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2019" end="2121" line="66" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1864" end="1876" line="56" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1527" end="1559" line="47" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1958" end="1961" line="59" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1757" end="1774" line="53" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1075" end="1079" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1210" end="1210" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2223" end="2237" line="74" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2140" end="2140" line="71" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1579" end="2007" line="50" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1239" end="1282" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1155" end="1155" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1797" end="1806" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1040" end="1048" line="35" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1807" end="1808" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1658" end="2007" line="51" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2133" end="2243" line="71" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1830" end="1842" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1172" end="1172" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1424" end="1484" line="44" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2107" end="2121" line="68" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1199" end="1199" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1631" end="1650" line="50" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="2185" end="2214" line="73" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1075" end="1079" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1926" end="1936" line="58" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1111" end="1124" line="38" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Main" class-type="Object" full-class-name="de.htwg.zeta.metamodelrelease.Main" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="1260" end="1281" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="de.htwg.zeta.metamodelrelease.Commands" filename="de/htwg/zeta/metamodelrelease/Main.scala" statement-count="36" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="de.htwg.zeta.metamodelrelease/Commands/&lt;none&gt;" statement-count="36" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="843" end="843" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="897" end="910" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="775" end="775" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="855" end="859" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="908" end="908" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="787" end="791" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="913" end="921" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="764" end="792" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="835" end="835" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="900" end="900" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="767" end="767" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.metamodelrelease" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.metamodelrelease.Commands" source="/app/images/metaModelRelease/src/main/scala/de/htwg/zeta/metamodelrelease/Main.scala" method="&lt;none&gt;" start="832" end="860" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

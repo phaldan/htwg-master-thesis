@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/common/src/main/scala/models/session/DummySession.scala">
+  <error column="0" line="2" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups java and others."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/metaModel/Dsl.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/metaModel/elements/MCoreReads.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="12" line="137" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="12" line="146" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="6" line="80" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="12" line="118" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="8" line="112" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="67" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mType&quot; appears 2 times in the file."/>
+  <error column="37" line="28" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mClass&quot; appears 2 times in the file."/>
+  <error column="37" line="29" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mReference&quot; appears 2 times in the file."/>
+  <error column="37" line="30" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mEnum&quot; appears 2 times in the file."/>
+  <error column="64" line="141" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ' is missing or doesn't match expected type)&quot; appears 2 times in the file."/>
+  <error column="10" line="209" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 2 times in the file."/>
+  <error column="10" line="210" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;upperBound&quot; appears 2 times in the file."/>
+  <error column="10" line="211" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;lowerBound&quot; appears 2 times in the file."/>
+  <error column="10" line="235" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;name&quot; appears 4 times in the file."/>
+  <error column="10" line="272" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;attributes&quot; appears 2 times in the file."/>
+  <error column="6" line="194" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="217" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/frontend/Developer.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups scala and others."/>
+  <error column="78" line="49" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 8 times in the file."/>
+  <error column="95" line="49" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;Error&quot; appears 4 times in the file."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/cluster/ClusterManager.scala">
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="5" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="110" line="12" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="78" line="29" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal /user/store&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/models/User.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="5" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="6" line="37" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/helper/HLink.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="18" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/frontend/Generator.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/file/Repository.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="2" line="9" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/metaModel/MetaModel.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="18" line="87" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="8" line="86" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="models.modelDefinitions.metaModel.elements.MCoreReads._ is in wrong order relative to models.modelDefinitions.metaModel.elements._."/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="10" line="99" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;name&quot; appears 2 times in the file."/>
+  <error column="10" line="100" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;elements&quot; appears 2 times in the file."/>
+  <error column="10" line="101" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;uiState&quot; appears 2 times in the file."/>
+  <error column="6" line="57" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="58" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="59" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/frontend/Client.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/document/http/HttpRepository.scala">
+  <error column="7" line="5" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="6" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="9" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="16" line="198" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="2" line="24" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="2" line="179" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="35" line="44" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 9 times in the file."/>
+  <error column="25" line="48" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;rev&quot; appears 2 times in the file."/>
+  <error column="41" line="78" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;_attachments&quot; appears 2 times in the file."/>
+  <error column="8" line="193" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="2" line="179" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/model/elements/MCoreInstance.scala">
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="62" line="65" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal )&quot; appears 2 times in the file."/>
+  <error column="6" line="69" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="81" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="89" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="122" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="127" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/document/Cache.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/session/SyncGatewaySession.scala">
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="7" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="2" line="17" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="26" line="3" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="Json should come before JsValue."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="6" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;name&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/models/remote/RemoteGenerator.scala">
+  <error column="7" line="7" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="8" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="6" line="59" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 12 exceeds max of 10"/>
+  <error column="52" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 6 times in the file."/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="2" line="19" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/model/elements/ModelWrites.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="models.modelDefinitions.metaModel.elements.MCoreWrites._ is in wrong order relative to scala.collection.immutable._."/>
+  <error column="8" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 2 times in the file."/>
+  <error column="8" line="31" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;attributes&quot; appears 2 times in the file."/>
+  <error column="6" line="48" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="55" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="62" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/file/Specification.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/file/http/HttpRepository.scala">
+  <error column="7" line="5" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="8" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="2" line="18" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="66" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+  <error column="101" line="42" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal '&quot; appears 2 times in the file."/>
+  <error column="56" line="57" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="56" line="91" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="62" line="99" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/document/Document.scala">
+  <error column="7" line="9" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="6" line="164" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 15 exceeds max of 10"/>
+  <error column="6" line="16" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="43" line="86" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="47" line="86" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="94" line="92" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="32" line="61" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 8 times in the file."/>
+  <error column="72" line="92" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;-&quot; appears 13 times in the file."/>
+  <error column="17" line="62" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="19" line="98" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="27" line="107" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="18" line="114" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="25" line="123" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="24" line="130" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="33" line="137" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="12" line="155" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error source="org.scalastyle.scalariform.NumberOfTypesChecker" severity="warning" message="Number of types declared in the file exceeds 20"/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="13" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/metaModel/elements/MCore.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="25" line="74" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="26" line="75" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="27" line="76" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="26" line="202" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="26" line="203" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="6" line="93" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="88" line="77" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal )&quot; appears 3 times in the file."/>
+  <error source="org.scalastyle.scalariform.NumberOfTypesChecker" severity="warning" message="Number of types declared in the file exceeds 20"/>
+  <error column="6" line="58" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="70" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="105" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="114" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="123" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="138" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="155" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="194" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="198" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="211" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="293" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/document/Specification.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="46" line="23" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;MetaModelEntity&quot; appears 2 times in the file."/>
+  <error column="65" line="23" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;MetaModelRelease&quot; appears 2 times in the file."/>
+  <error column="71" line="15" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="67" line="19" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="88" line="26" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="66" line="30" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="62" line="34" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="71" line="38" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="66" line="42" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/model/Model.scala">
+  <error column="7" line="9" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="models.modelDefinitions.model.elements.ModelWrites._ is in wrong order relative to models.modelDefinitions.model.elements._."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="23" line="30" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;name&quot; appears 3 times in the file."/>
+  <error column="27" line="31" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;elements&quot; appears 2 times in the file."/>
+  <error column="26" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;uiState&quot; appears 3 times in the file."/>
+  <error column="30" line="72" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="6" line="60" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="6" line="61" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="6" line="62" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="6" line="63" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="6" line="68" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="6" line="69" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="6" line="70" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/document/Repository.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/metaModel/MetaModelEntity.scala">
+  <error column="10" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 3 times in the file."/>
+  <error column="10" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;created&quot; appears 2 times in the file."/>
+  <error column="10" line="57" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;updated&quot; appears 2 times in the file."/>
+  <error column="10" line="58" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;metaModel&quot; appears 4 times in the file."/>
+  <error column="10" line="59" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;dsl&quot; appears 2 times in the file."/>
+  <error column="10" line="60" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;links&quot; appears 3 times in the file."/>
+  <error column="6" line="29" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="39" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="2" line="97" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="2" line="98" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/file/File.scala">
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/worker/Job.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups java and others."/>
+  <error column="76" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;--generator&quot; appears 5 times in the file."/>
+  <error column="69" line="68" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 3 times in the file."/>
+  <error column="31" line="70" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;modigen/filter/scala:0.1&quot; appears 2 times in the file."/>
+  <error column="40" line="72" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;--filter&quot; appears 6 times in the file."/>
+  <error column="40" line="114" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;--model&quot; appears 2 times in the file."/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/model/elements/ModelReads.scala">
+  <error line="20" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="22" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="159" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 12 exceeds max of 10"/>
+  <error column="10" line="78" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="10" line="88" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="6" line="43" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="83" line="44" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+  <error column="64" line="83" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ' is missing or doesn't match expected type)&quot; appears 2 times in the file."/>
+  <error column="17" line="129" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mClass&quot; appears 3 times in the file."/>
+  <error column="24" line="131" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mReference&quot; appears 2 times in the file."/>
+  <error column="10" line="197" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 2 times in the file."/>
+  <error column="55" line="209" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;attributes&quot; appears 2 times in the file."/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="124" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="159" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="2" line="218" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="2" line="219" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="2" line="220" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/session/SyncGatewayAccount.scala">
+  <error column="7" line="7" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="2" line="32" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups java and others."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/model/ModelEntity.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="6" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="7" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="11" line="57" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;name&quot; appears 2 times in the file."/>
+  <error column="10" line="64" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 4 times in the file."/>
+  <error column="10" line="66" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;userId&quot; appears 2 times in the file."/>
+  <error column="10" line="67" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;created&quot; appears 3 times in the file."/>
+  <error column="10" line="68" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;updated&quot; appears 3 times in the file."/>
+  <error column="10" line="69" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;model&quot; appears 5 times in the file."/>
+  <error column="10" line="70" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;links&quot; appears 4 times in the file."/>
+  <error column="10" line="75" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;metaModelId&quot; appears 3 times in the file."/>
+  <error column="6" line="33" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="44" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/document/cached/CachedRepository.scala">
+  <error column="7" line="7" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="9" line="21" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="2" line="20" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="2" line="21" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="2" line="22" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="19" line="28" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="2" line="22" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/modelDefinitions/metaModel/elements/MCoreWrites.scala">
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="62" line="3" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="MInt should come before MString."/>
+  <error column="62" line="3" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="MDouble should come before MInt."/>
+  <error column="62" line="3" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="MBool should come before MDouble."/>
+  <error column="8" line="26" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;mType&quot; appears 3 times in the file."/>
+  <error column="8" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;name&quot; appears 4 times in the file."/>
+  <error column="8" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;attributes&quot; appears 2 times in the file."/>
+  <error column="8" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 2 times in the file."/>
+  <error column="8" line="55" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;upperBound&quot; appears 2 times in the file."/>
+  <error column="8" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;lowerBound&quot; appears 2 times in the file."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/frontend/User.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/common/src/main/scala/models/remote/Remote.scala">
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="6" line="29" source="org.scalastyle.scalariform.ProcedureDeclarationChecker" severity="error" message="Use : Unit = for procedures"/>
+ </file>
+ <file name="/app/common/src/main/scala/cluster/HostIP.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+</checkstyle>

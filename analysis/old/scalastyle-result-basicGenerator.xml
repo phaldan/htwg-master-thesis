@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/generator/basic/src/main/scala/Main.scala">
+  <error line="66" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="76" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="9" line="22" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="9" line="28" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="9" line="29" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="6" line="41" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="1" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="2" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/images/generator/basic/src/main/scala/Options.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="1" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+ </file>
+</checkstyle>

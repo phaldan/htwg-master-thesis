@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala">
+  <error column="94" line="80" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 3 times in the file."/>
+ </file>
+</checkstyle>

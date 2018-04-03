@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/generator/template/src/main/scala/Settings.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/images/generator/template/src/main/scala/Template.scala">
+  <error line="43" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="8" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="9" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="12" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="17" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="15" line="49" source="org.scalastyle.scalariform.ClassTypeParameterChecker" severity="warning" message="Type parameter does not match '{0}'"/>
+  <error column="2" line="50" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent. is in wrong order relative to scala.concurrent.duration._."/>
+  <error column="0" line="16" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="generator._ is in wrong order relative to scala.tools.reflect.ToolBox."/>
+  <error column="11" line="150" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="157" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="16" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/images/generator/template/src/main/scala/generator/Transformer.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+ </file>
+</checkstyle>

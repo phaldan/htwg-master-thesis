@@ -1,0 +1,9 @@
+Projekt,Statements,Covered,Percentage,Branch,Covered,Percentage
+common,2909,162,"5,57%",39,0,"0,00%"
+generatorControl,2152,0,"0,00%",56,0,"0,00%"
+scalaFilter,153,0,"0,00%",5,0,"0,00%"
+generator,370,0,"0,00%",13,0,"0,00%"
+metaModelRelease,80,0,"0,00%",0,0,#DIV/0!
+persistence,1586,1233,"77,74%",36,23,"63,89%"
+server,12517,1255,"10,03%",393,65,"16,54%"
+all,19767,2650,"13,41%",542,88,"16,24%"

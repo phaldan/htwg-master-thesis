@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/filter/scala/src/main/scala/filter/filter.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/images/filter/scala/src/main/scala/Main.scala">
+  <error column="7" line="14" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="2" line="24" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent. is in wrong order relative to scala.tools.reflect.ToolBox."/>
+  <error column="59" line="101" source="org.scalastyle.scalariform.NonASCIICharacterChecker" severity="error" message="Non ascii characters are not allowed"/>
+  <error column="6" line="83" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="98" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="44" line="91" source="org.scalastyle.scalariform.RedundantIfChecker" severity="warning" message="Eliminate redundant if expressions where both branches return constant booleans"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+</checkstyle>

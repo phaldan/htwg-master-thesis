@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/metamodel/release/src/main/scala/Main.scala">
+  <error column="7" line="10" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent. is in wrong order relative to scala.concurrent.ExecutionContext.Implicits.global."/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="4" line="51" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+</checkstyle>

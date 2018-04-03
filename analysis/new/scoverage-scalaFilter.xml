@@ -1,0 +1,513 @@
+<scoverage 
+statement-count="153" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1521302500496">
+    <packages>
+        <package name="de.htwg.zeta.filter" statement-count="153" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="de.htwg.zeta.filter.Main" filename="de/htwg/zeta/filter/Main.scala" statement-count="116" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="de.htwg.zeta.filter/Main/getFile" statement-count="7" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2768" end="2856" line="80" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2557" end="2573" line="76" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2686" end="2723" line="79" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2673" end="2759" line="79" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2615" end="2645" line="77" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2519" end="2575" line="76" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="getFile" start="2735" end="2753" line="79" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="de.htwg.zeta.filter/Main/compileFilter" statement-count="18" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3247" end="3247" line="97" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3496" end="3504" line="106" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3324" end="3342" line="99" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3021" end="3158" line="88" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3017" end="3202" line="88" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3219" end="3415" line="96" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3457" end="3484" line="103" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3247" end="3247" line="97" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="2968" end="2997" line="86" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3276" end="3298" line="98" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3402" end="3415" line="101" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3159" end="3171" line="92" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3172" end="3202" line="92" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3358" end="3395" line="100" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3233" end="3246" line="97" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3467" end="3483" line="103" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="2944" end="2963" line="85" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="compileFilter" start="3233" end="3258" line="97" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="de.htwg.zeta.filter/Main/checkInstance" statement-count="20" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4250" end="4287" line="124" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4004" end="4021" line="118" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4169" end="4194" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4195" end="4216" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4133" end="4134" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4155" end="4239" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4059" end="4134" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4123" end="4132" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4167" end="4238" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4047" end="4135" line="120" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4268" end="4277" line="124" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4237" end="4238" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4113" end="4122" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4217" end="4226" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4250" end="4287" line="124" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4061" end="4090" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4227" end="4236" line="122" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4091" end="4112" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4047" end="4135" line="120" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstance" start="4155" end="4239" line="122" branch="true" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="de.htwg.zeta.filter/Main/&lt;none&gt;" statement-count="39" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1529" end="1529" line="44" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1908" end="1940" line="52" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1405" end="1409" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2298" end="2312" line="65" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1590" end="1611" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2146" end="2210" line="58" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1441" end="1454" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2376" end="2405" line="70" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2324" end="2434" line="68" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1746" end="1791" line="48" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1333" end="1346" line="38" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1502" end="1502" line="43" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2030" end="2210" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1485" end="1485" line="43" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1652" end="1713" line="47" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2076" end="2210" line="56" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2339" end="2339" line="68" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1920" end="1939" line="52" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2250" end="2291" line="64" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1529" end="1529" line="44" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1350" end="1379" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1877" end="2439" line="51" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2389" end="2401" line="70" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1392" end="1410" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1529" end="1542" line="44" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2046" end="2060" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2003" end="2022" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2222" end="2312" line="63" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2108" end="2210" line="57" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1569" end="1612" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1485" end="1485" line="43" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2414" end="2428" line="71" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1826" end="1873" line="49" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1485" end="1504" line="43" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="2331" end="2331" line="68" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1309" end="1347" line="38" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1958" end="2210" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1405" end="1409" line="40" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1540" end="1540" line="44" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="de.htwg.zeta.filter/Main/checkInstances" statement-count="17" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3845" end="3869" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3751" end="3778" line="112" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3832" end="3832" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3887" end="3887" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3742" end="3742" line="112" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3743" end="3779" line="112" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3888" end="3892" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3787" end="3901" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3699" end="3782" line="112" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3642" end="3677" line="111" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3833" end="3870" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3750" end="3750" line="112" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3817" end="3871" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3727" end="3780" line="112" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3882" end="3900" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3587" end="3618" line="110" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="checkInstances" start="3844" end="3844" line="113" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="de.htwg.zeta.filter/Main/saveResult" statement-count="15" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4553" end="4553" line="132" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4374" end="4417" line="128" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4546" end="4582" line="132" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4659" end="4668" line="134" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4487" end="4510" line="130" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4553" end="4553" line="132" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4402" end="4417" line="128" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4553" end="4553" line="132" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4553" end="4553" line="132" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4589" end="4627" line="133" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4427" end="4480" line="129" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4553" end="4553" line="132" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4522" end="4691" line="131" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4634" end="4685" line="134" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Main" class-type="Object" full-class-name="de.htwg.zeta.filter.Main" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="saveResult" start="4419" end="4516" line="128" branch="true" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="de.htwg.zeta.filter.Commands" filename="de/htwg/zeta/filter/Main.scala" statement-count="37" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="de.htwg.zeta.filter/Commands/&lt;none&gt;" statement-count="37" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1131" end="1131" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1196" end="1196" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1063" end="1063" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1143" end="1147" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1208" end="1212" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1216" end="1224" line="31" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1075" end="1079" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1185" end="1213" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1052" end="1080" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1123" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1120" end="1148" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1188" end="1188" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="de.htwg.zeta.filter" class="Commands" class-type="Class" full-class-name="de.htwg.zeta.filter.Commands" source="/app/images/filter/src/main/scala/de/htwg/zeta/filter/Main.scala" method="&lt;none&gt;" start="1055" end="1055" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

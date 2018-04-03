@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/client/src/main/scala/controller/WebSocketConnection.scala">
+  <error line="9" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="23" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="console should come before WebSocket."/>
+  <error column="35" line="11" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;/&quot; appears 2 times in the file."/>
+  <error column="79" line="14" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="21" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/client/src/main/scala/facade/Ace.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error line="259" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="260" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="261" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="7" line="62" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="95" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="112" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="147" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="258" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="401" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="426" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="439" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="6" line="486" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="490" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="504" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="518" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="577" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="598" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="612" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="622" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="636" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="7" line="707" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="6" line="37" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="278" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="js.annotation._ is in wrong order relative to scala.scalajs.js."/>
+  <error column="6" line="168" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="202" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="211" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="241" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="243" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="49" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.KeyBinding&quot; appears 2 times in the file."/>
+  <error column="8" line="83" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Anchor&quot; appears 2 times in the file."/>
+  <error column="8" line="98" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.BackgroundTokenizer&quot; appears 2 times in the file."/>
+  <error column="8" line="115" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Document&quot; appears 2 times in the file."/>
+  <error column="8" line="264" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Editor&quot; appears 2 times in the file."/>
+  <error column="8" line="411" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.PlaceHolder&quot; appears 2 times in the file."/>
+  <error column="8" line="443" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Range&quot; appears 2 times in the file."/>
+  <error column="8" line="485" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.RenderLoop&quot; appears 2 times in the file."/>
+  <error column="8" line="493" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.ScrollBar&quot; appears 2 times in the file."/>
+  <error column="8" line="507" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Search&quot; appears 2 times in the file."/>
+  <error column="8" line="521" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Selection&quot; appears 2 times in the file."/>
+  <error column="8" line="580" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Split&quot; appears 2 times in the file."/>
+  <error column="8" line="601" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.TokenIterator&quot; appears 2 times in the file."/>
+  <error column="8" line="615" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.Tokenizer&quot; appears 2 times in the file."/>
+  <error column="8" line="625" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.UndoManager&quot; appears 2 times in the file."/>
+  <error column="8" line="639" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;AceAjax.VirtualRenderer&quot; appears 2 times in the file."/>
+  <error column="6" line="444" source="org.scalastyle.scalariform.NoCloneChecker" severity="error" message="Avoid using clone method."/>
+  <error column="26" line="117" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="62" line="266" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="31" line="280" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="50" line="281" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="50" line="286" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="30" line="289" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="33" line="345" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="49" line="373" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="73" line="373" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="52" line="376" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="76" line="376" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="33" line="378" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="35" line="379" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="35" line="380" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="53" line="388" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="56" line="389" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="45" line="391" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="69" line="391" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="33" line="392" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="57" line="392" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="37" line="393" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="61" line="393" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="53" line="431" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="77" line="572" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="33" line="628" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="51" line="641" source="org.scalastyle.scalariform.NotImplementedErrorUsage" severity="warning" message="Usage of ??? operator"/>
+  <error column="6" line="150" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="265" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="522" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="640" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error source="org.scalastyle.scalariform.NumberOfTypesChecker" severity="warning" message="Number of types declared in the file exceeds 20"/>
+  <error column="0" line="3" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="2" line="8" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="12" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="13" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="14" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="15" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="19" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="20" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="21" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="25" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="26" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="27" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="34" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="35" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="36" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="37" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="41" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="45" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="46" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="101" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="151" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="152" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="153" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="268" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="272" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="273" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="274" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="275" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="276" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="277" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="278" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="405" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="406" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="407" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="408" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="430" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="446" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="447" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="448" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="449" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="450" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="451" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="642" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="643" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="644" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/client/src/main/scala/view/CodeEditorView.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.scalajs.js is in wrong order relative to scalot._."/>
+  <error column="47" line="15" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="32" line="20" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;btn-save&quot; appears 2 times in the file."/>
+  <error column="36" line="23" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+  <error column="32" line="35" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;editor&quot; appears 2 times in the file."/>
+  <error column="30" line="63" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="6" line="65" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="90" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="2" line="16" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="62" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="63" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/client/src/main/scala/controller/TestLanguage.scala">
+  <error column="77" line="46" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="72" line="72" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="22" line="13" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;constant.support&quot; appears 2 times in the file."/>
+  <error column="20" line="14" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;comment&quot; appears 4 times in the file."/>
+  <error column="20" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;keyword&quot; appears 3 times in the file."/>
+  <error column="21" line="19" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;operator&quot; appears 2 times in the file."/>
+  <error column="23" line="20" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;identifier&quot; appears 2 times in the file."/>
+  <error column="19" line="22" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;string&quot; appears 3 times in the file."/>
+  <error column="25" line="38" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/client/src/main/scala/view/ScalotAceAdaptor.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="8" line="37" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+  <error column="14" line="3" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="Document should come before Range."/>
+  <error column="14" line="3" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="Delta should come before Document."/>
+  <error column="14" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="DelComp should come before InsComp."/>
+  <error column="14" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="Operation should come before SkipComp."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.scalajs.js is in wrong order relative to scalot.."/>
+  <error column="11" line="23" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;insertText&quot; appears 2 times in the file."/>
+  <error column="11" line="25" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;removeText&quot; appears 2 times in the file."/>
+  <error column="4" line="34" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="36" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/client/src/main/scala/controller/StyleLanguage.scala">
+  <error column="77" line="46" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="72" line="72" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="22" line="13" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;constant.support&quot; appears 2 times in the file."/>
+  <error column="20" line="14" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;comment&quot; appears 4 times in the file."/>
+  <error column="20" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;keyword&quot; appears 3 times in the file."/>
+  <error column="21" line="19" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;operator&quot; appears 2 times in the file."/>
+  <error column="23" line="20" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;identifier&quot; appears 2 times in the file."/>
+  <error column="19" line="22" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;string&quot; appears 3 times in the file."/>
+  <error column="25" line="38" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/client/src/main/scala/facade/JQueryUi.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/client/src/main/scala/facade/AceGrammar.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="6" line="6" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="5" source="org.scalastyle.scalariform.PackageObjectNamesChecker" severity="warning" message="Package object name does not match the regular expression '^[a-z][A-Za-z]*$'"/>
+ </file>
+ <file name="/app/client/src/main/scala/Main.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="18" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="CodeEditorController should come before ModeController."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/client/src/main/scala/controller/DomainSpecificLanguage.scala">
+  <error column="6" line="4" source="org.scalastyle.scalariform.ProcedureDeclarationChecker" severity="error" message="Use : Unit = for procedures"/>
+ </file>
+ <file name="/app/client/src/main/scala/controller/CodeEditorController.scala">
+  <error column="7" line="10" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="org.scalajs.dom.console is in wrong order relative to view.CodeEditorView."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.scalajs.js is in wrong order relative to scalot.ClientFSM.."/>
+  <error column="49" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+  <error column="25" line="23" source="org.scalastyle.scalariform.NullChecker" severity="error" message="Avoid using null"/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="35" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="42" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="53" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="71" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="86" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="2" line="23" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/client/src/main/scala/facade/Bootbox.scala">
+  <error column="15" line="5" source="org.scalastyle.scalariform.PackageObjectNamesChecker" severity="warning" message="Package object name does not match the regular expression '^[a-z][A-Za-z]*$'"/>
+  <error column="2" line="6" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/client/src/main/scala/controller/ModelLoader.scala">
+  <error column="4" line="65" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="4" line="85" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups scala and others."/>
+  <error column="15" line="41" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;GET&quot; appears 3 times in the file."/>
+  <error column="20" line="43" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;application/json; charset=utf-8&quot; appears 3 times in the file."/>
+  <error column="17" line="44" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;json&quot; appears 3 times in the file."/>
+  <error column="22" line="80" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;responseText&quot; appears 2 times in the file."/>
+  <error column="53" line="80" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="0" line="18" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="4" line="65" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="4" line="85" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+</checkstyle>

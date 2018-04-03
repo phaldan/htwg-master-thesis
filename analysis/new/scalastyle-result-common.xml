@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/entity/TimedTask.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="java.time.Duration is in wrong order relative to java.time.LocalDateTime."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/ClassFormat.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/AccessAuthorisationFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/frontend/User.scala">
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+  <error column="8" line="35" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 8 times in the file."/>
+  <error column="18" line="35" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;ExecuteBondedTask&quot; appears 2 times in the file."/>
+  <error column="8" line="36" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;model&quot; appears 4 times in the file."/>
+  <error column="8" line="37" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;task&quot; appears 10 times in the file."/>
+  <error column="18" line="62" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;SavedModel&quot; appears 2 times in the file."/>
+  <error column="18" line="111" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;BondedTaskNotExecutable&quot; appears 2 times in the file."/>
+  <error column="8" line="113" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;reason&quot; appears 2 times in the file."/>
+  <error column="18" line="138" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;Entry&quot; appears 2 times in the file."/>
+  <error column="8" line="140" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;menu&quot; appears 2 times in the file."/>
+  <error column="8" line="141" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;item&quot; appears 2 times in the file."/>
+  <error column="8" line="168" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;tasks&quot; appears 2 times in the file."/>
+  <error column="18" line="192" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;BondedTaskCompleted&quot; appears 2 times in the file."/>
+  <error column="8" line="194" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;status&quot; appears 2 times in the file."/>
+  <error column="18" line="219" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;BondedTaskStarted&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/AttributeValueFormat.scala">
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/cluster/RemoteClient.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.ActorRef is in wrong order relative to akka.actor.ActorSystem."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.cluster.client.ClusterClient is in wrong order relative to akka.cluster.client.ClusterClientSettings."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/FileFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/EnumFormat.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/FilterImageFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/GraphicalDslFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/GeneratorImageFormat.scala">
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/model/EdgeFormat.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.format.metaModel.AttributeFormat is in wrong order relative to de.htwg.zeta.common.format.metaModel.AttributeValueFormat."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/frontend/Developer.scala">
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsString is in wrong order relative to play.api.libs.json.Json."/>
+  <error column="0" line="16" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsError is in wrong order relative to play.api.libs.json.Writes."/>
+  <error column="27" line="41" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;filter&quot; appears 2 times in the file."/>
+  <error column="21" line="74" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 2 times in the file."/>
+  <error column="8" line="172" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;message&quot; appears 2 times in the file."/>
+  <error column="8" line="189" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;job&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/document/Settings.scala">
+  <error column="43" line="18" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="47" line="18" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/cluster/HostIP.scala">
+  <error column="129" line="20" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 4 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/LogFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/cluster/ClusterManager.scala">
+  <error column="73" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal /user/store&quot; appears 2 times in the file."/>
+  <error column="26" line="31" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;&quot;&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/BondedTaskFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/GraphicalDslReleaseFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/EventDrivenTaskFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/AttributeTypeFormat.scala">
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/remote/RemoteGenerator.scala">
+  <error column="52" line="30" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 6 times in the file."/>
+  <error column="2" line="34" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/FilterFormat.scala">
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/entity/BondedTask.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/UserFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/GeneratorFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/ConceptFormat.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/frontend/Generator.scala">
+  <error column="8" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;action&quot; appears 4 times in the file."/>
+  <error column="20" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;RunGeneratorFromGenerator&quot; appears 3 times in the file."/>
+  <error column="8" line="33" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;parent&quot; appears 2 times in the file."/>
+  <error column="8" line="34" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;key&quot; appears 10 times in the file."/>
+  <error column="8" line="35" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;generator&quot; appears 2 times in the file."/>
+  <error column="8" line="36" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;options&quot; appears 2 times in the file."/>
+  <error column="8" line="43" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;index&quot; appears 4 times in the file."/>
+  <error column="8" line="45" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;receiver&quot; appears 2 times in the file."/>
+  <error column="8" line="46" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;message&quot; appears 4 times in the file."/>
+  <error column="8" line="99" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 3 times in the file."/>
+  <error column="18" line="99" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;StartGeneratorError&quot; appears 2 times in the file."/>
+  <error column="8" line="101" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;reason&quot; appears 2 times in the file."/>
+  <error column="18" line="124" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;FromGenerator&quot; appears 3 times in the file."/>
+  <error column="10" line="154" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;result&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/TimedTaskFormat.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/metaModel/AttributeFormat.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/entity/SettingsFormat.scala">
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/modelDefinitions/metaModel/Concept.scala">
+  <error column="0" line="15" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference is in wrong order relative to de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.Method.MethodMap."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/worker/Job.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.Format is in wrong order relative to play.api.libs.json.Json."/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsString is in wrong order relative to play.api.libs.json.Writes."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsObject is in wrong order relative to play.api.libs.json.JsValue."/>
+  <error column="76" line="59" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;--generator&quot; appears 5 times in the file."/>
+  <error column="71" line="76" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 5 times in the file."/>
+  <error column="31" line="78" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;modigen/filter/scala:0.1&quot; appears 2 times in the file."/>
+  <error column="40" line="80" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;--filter&quot; appears 6 times in the file."/>
+  <error column="48" line="106" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;CreateGeneratorJob&quot; appears 2 times in the file."/>
+  <error column="40" line="122" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;--model&quot; appears 2 times in the file."/>
+  <error column="48" line="178" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;RerunFilterJob&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/format/model/NodeFormat.scala">
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsResult is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+ <file name="/app/common/src/main/scala/de/htwg/zeta/common/models/frontend/SafeFormats.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsValue is in wrong order relative to play.api.libs.json.Json."/>
+ </file>
+</checkstyle>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/Main.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.generatorControl.start.Commands is in wrong order relative to de.htwg.zeta.generatorControl.start.DummyStarter."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.generatorControl.start.DeveloperStarter is in wrong order relative to de.htwg.zeta.generatorControl.start.WorkersStarter."/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/master/WorkState.scala">
+  <error column="6" line="38" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/developer/manager/GeneratorConnectionManager.scala">
+  <error column="6" line="21" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="2" line="25" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/frontend/DeveloperFrontend.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.Duration."/>
+  <error column="28" line="50" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="39" line="56" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/developer/manager/ManualExecutionManager.scala">
+  <error column="6" line="31" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="62" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/start/DummyStarter.scala">
+  <error column="6" line="30" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="31" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="32" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="18" line="30" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;dummy&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/worker/DummyWorkerExecutor.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.Actor is in wrong order relative to de.htwg.zeta.generatorControl.actors.worker.MasterWorkerProtocol.Work."/>
+  <error column="6" line="10" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/start/DeveloperStarter.scala">
+  <error column="6" line="45" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="46" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="47" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/start/MasterStarter.scala">
+  <error column="6" line="67" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="68" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="69" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="70" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="71" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="72" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="78" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="82" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="47" line="82" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/worker/DockerWorkExecutor.scala">
+  <error column="108" line="129" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;error&quot; appears 4 times in the file."/>
+  <error column="69" line="165" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;info&quot; appears 2 times in the file."/>
+  <error column="52" line="186" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 7 times in the file."/>
+  <error column="10" line="120" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="10" line="121" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/start/WorkersStarter.scala">
+  <error column="6" line="32" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="33" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="37" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="38" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="50" line="37" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="85" line="26" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/common/ClusterListener.scala">
+  <error column="10" line="19" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/frontend/GeneratorFrontend.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.Duration."/>
+  <error column="0" line="21" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.generatorControl.actors.frontendManager.FrontendManager is in wrong order relative to de.htwg.zeta.generatorControl.actors.frontendManager.FrontendManagerGenerator."/>
+  <error column="37" line="44" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="103" line="46" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="40" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="57" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/start/Starter.scala">
+  <error column="6" line="56" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="60" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.FiniteDuration."/>
+  <error column="44" line="28" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="45" line="60" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/developer/manager/ModelReleaseManager.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="6" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="16" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/developer/manager/TimedTasksManager.scala">
+  <error column="6" line="42" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="49" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="57" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="65" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="80" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="10" line="40" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/frontend/DeveloperDummy.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.Actor is in wrong order relative to de.htwg.zeta.generatorControl.actors.developer.Mediator."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="19" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="20" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.Duration."/>
+  <error column="0" line="22" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="22" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.cluster.sharding.ClusterSharding is in wrong order relative to scala.concurrent.ExecutionContext.Implicits.global."/>
+  <error column="103" line="40" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="31" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="49" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/worker/Worker.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.Actor is in wrong order relative to de.htwg.zeta.generatorControl.actors.worker.MasterWorkerProtocol.Work."/>
+  <error column="0" line="17" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.SupervisorStrategy.Restart is in wrong order relative to akka.actor.Terminated."/>
+  <error column="0" line="22" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="76" line="31" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="72" line="39" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="75" line="42" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="41" line="89" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="12" line="40" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;Master&quot; appears 2 times in the file."/>
+  <error column="18" line="72" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;No work is running to cancel!&quot; appears 2 times in the file."/>
+  <error column="6" line="59" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="10" line="46" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/image/ImageManager.scala">
+  <error column="101" line="18" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/developer/WorkState.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="6" line="33" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="34" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="35" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/developer/WorkQueue.scala">
+  <error column="14" line="50" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="51" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="52" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="34" line="63" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="32" line="137" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 7 times in the file."/>
+  <error column="10" line="57" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="10" line="60" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/master/Master.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.ActorLogging is in wrong order relative to de.htwg.zeta.generatorControl.actors.worker.MasterWorkerProtocol.CancelWork."/>
+  <error column="0" line="17" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="18" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.Duration."/>
+  <error column="77" line="59" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="109" line="59" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="83" line="212" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="70" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="10" line="53" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="10" line="56" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/generatorControl/src/main/scala/de/htwg/zeta/generatorControl/actors/frontend/UserFrontend.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.Duration."/>
+  <error column="37" line="44" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="103" line="46" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="40" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="57" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+</checkstyle>

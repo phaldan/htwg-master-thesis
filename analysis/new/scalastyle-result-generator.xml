@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/generator/src/main/scala/de/htwg/zeta/generator/Main.scala">
+  <error column="17" line="132" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/app/images/generator/src/main/scala/de/htwg/zeta/generator/Template.scala">
+  <error column="0" line="26" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.persistence.general.GraphicalDslInstanceRepository is in wrong order relative to de.htwg.zeta.persistence.general.GraphicalDslRepository."/>
+ </file>
+</checkstyle>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/images/generator/remote/src/main/scala/Main.scala">
+  <error column="7" line="26" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="0" line="30" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="7" line="1" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="3" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="5" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="6" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="7" line="8" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="models.modelDefinitions.model.elements. is in wrong order relative to models.remote.Remote."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.concurrent. is in wrong order relative to scala.concurrent.ExecutionContext.Implicits.global."/>
+  <error column="17" line="103" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="11" line="38" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;BasicActor&quot; appears 2 times in the file."/>
+  <error column="11" line="39" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;PersistentActor&quot; appears 2 times in the file."/>
+  <error column="8" line="21" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="35" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="37" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="69" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="1" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+  <error column="0" line="2" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="error" message="Avoid wildcard imports"/>
+ </file>
+ <file name="/app/images/generator/remote/src/main/scala/Options.scala">
+  <error column="7" line="1" source="org.scalastyle.scalariform.BlockImportChecker" severity="warning" message="Avoid block imports"/>
+ </file>
+</checkstyle>

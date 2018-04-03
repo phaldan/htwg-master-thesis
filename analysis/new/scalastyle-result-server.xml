@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/app/server/app/de/htwg/zeta/server/generator/parser/SprayParser.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error line="138" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="0" line="32" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.entity.GraphicalDsl is in wrong order relative to grizzled.slf4j.Logging."/>
+  <error column="14" line="174" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="178" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="5" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;(&quot; appears 9 times in the file."/>
+  <error column="50" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;|&quot; appears 2 times in the file."/>
+  <error column="12" line="80" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;style&quot; appears 8 times in the file."/>
+  <error column="17" line="81" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;extends&quot; appears 3 times in the file."/>
+  <error column="71" line="81" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,?&quot; appears 6 times in the file."/>
+  <error column="17" line="82" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 12 times in the file."/>
+  <error column="58" line="82" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 13 times in the file."/>
+  <error column="5" line="148" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;shape&quot; appears 4 times in the file."/>
+  <error column="36" line="156" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 5 times in the file."/>
+  <error column="5" line="185" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;connection&quot; appears 2 times in the file."/>
+  <error column="5" line="212" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;action&quot; appears 2 times in the file."/>
+  <error column="14" line="213" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;label&quot; appears 2 times in the file."/>
+  <error column="24" line="213" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;:&quot; appears 16 times in the file."/>
+  <error column="44" line="213" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 5 times in the file."/>
+  <error column="7" line="214" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;class&quot; appears 2 times in the file."/>
+  <error column="7" line="215" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;method&quot; appears 2 times in the file."/>
+  <error column="42" line="240" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;;&quot; appears 3 times in the file."/>
+  <error column="4" line="246" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;actions&quot; appears 4 times in the file."/>
+  <error column="5" line="253" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;actionGroup&quot; appears 4 times in the file."/>
+  <error column="50" line="261" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;palette&quot; appears 4 times in the file."/>
+  <error column="52" line="263" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;container&quot; appears 4 times in the file."/>
+  <error column="9" line="266" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;call&quot; appears 2 times in the file."/>
+  <error column="4" line="281" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;onCreate&quot; appears 4 times in the file."/>
+  <error column="64" line="286" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;onUpdate&quot; appears 4 times in the file."/>
+  <error column="64" line="288" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;onDelete&quot; appears 4 times in the file."/>
+  <error column="5" line="291" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;val&quot; appears 2 times in the file."/>
+  <error column="24" line="291" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;-&gt;&quot; appears 3 times in the file."/>
+  <error column="5" line="297" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;var&quot; appears 2 times in the file."/>
+  <error column="5" line="303" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;nest&quot; appears 2 times in the file."/>
+  <error column="5" line="314" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;node&quot; appears 3 times in the file."/>
+  <error column="7" line="315" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;for&quot; appears 3 times in the file."/>
+  <error column="5" line="393" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;edge&quot; appears 3 times in the file."/>
+  <error column="80" line="508" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\n&quot; appears 2 times in the file."/>
+  <error column="6" line="44" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="533" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="326" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="327" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="328" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="329" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="330" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="331" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="332" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="333" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="416" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="417" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="418" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="419" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="420" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="421" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="422" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error line="138" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="0" line="32" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.entity.GraphicalDsl is in wrong order relative to grizzled.slf4j.Logging."/>
+  <error column="14" line="174" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="178" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="5" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;(&quot; appears 9 times in the file."/>
+  <error column="50" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;|&quot; appears 2 times in the file."/>
+  <error column="12" line="80" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;style&quot; appears 8 times in the file."/>
+  <error column="17" line="81" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;extends&quot; appears 3 times in the file."/>
+  <error column="71" line="81" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,?&quot; appears 6 times in the file."/>
+  <error column="17" line="82" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 12 times in the file."/>
+  <error column="58" line="82" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 13 times in the file."/>
+  <error column="5" line="148" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;shape&quot; appears 4 times in the file."/>
+  <error column="36" line="156" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 5 times in the file."/>
+  <error column="5" line="185" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;connection&quot; appears 2 times in the file."/>
+  <error column="5" line="212" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;action&quot; appears 2 times in the file."/>
+  <error column="14" line="213" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;label&quot; appears 2 times in the file."/>
+  <error column="24" line="213" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;:&quot; appears 16 times in the file."/>
+  <error column="44" line="213" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 5 times in the file."/>
+  <error column="7" line="214" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;class&quot; appears 2 times in the file."/>
+  <error column="7" line="215" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;method&quot; appears 2 times in the file."/>
+  <error column="42" line="240" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;;&quot; appears 3 times in the file."/>
+  <error column="4" line="246" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;actions&quot; appears 4 times in the file."/>
+  <error column="5" line="253" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;actionGroup&quot; appears 4 times in the file."/>
+  <error column="50" line="261" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;palette&quot; appears 4 times in the file."/>
+  <error column="52" line="263" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;container&quot; appears 4 times in the file."/>
+  <error column="9" line="266" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;call&quot; appears 2 times in the file."/>
+  <error column="4" line="281" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;onCreate&quot; appears 4 times in the file."/>
+  <error column="64" line="286" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;onUpdate&quot; appears 4 times in the file."/>
+  <error column="64" line="288" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;onDelete&quot; appears 4 times in the file."/>
+  <error column="5" line="291" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;val&quot; appears 2 times in the file."/>
+  <error column="24" line="291" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;-&gt;&quot; appears 3 times in the file."/>
+  <error column="5" line="297" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;var&quot; appears 2 times in the file."/>
+  <error column="5" line="303" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;nest&quot; appears 2 times in the file."/>
+  <error column="5" line="314" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;node&quot; appears 3 times in the file."/>
+  <error column="7" line="315" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;for&quot; appears 3 times in the file."/>
+  <error column="5" line="393" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;edge&quot; appears 3 times in the file."/>
+  <error column="80" line="508" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\n&quot; appears 2 times in the file."/>
+  <error column="6" line="44" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="533" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="326" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="327" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="328" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="329" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="330" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="331" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="332" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="333" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="416" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="417" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="418" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="419" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="420" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="421" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="422" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/RouteController.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.UnAuthenticatedAction is in wrong order relative to de.htwg.zeta.server.routing.authentication.UnAuthenticatedWebSocket."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AuthenticatedWebSocket is in wrong order relative to de.htwg.zeta.server.routing.authentication.UnAuthenticatedAction."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AuthenticatedAction is in wrong order relative to de.htwg.zeta.server.routing.authentication.AuthenticatedWebSocket."/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AbstractWebSocket is in wrong order relative to de.htwg.zeta.server.routing.authentication.BasicWebSocket."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AbstractAction is in wrong order relative to de.htwg.zeta.server.routing.authentication.AbstractWebSocket."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.UnAuthenticatedAction is in wrong order relative to de.htwg.zeta.server.routing.authentication.UnAuthenticatedWebSocket."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AuthenticatedWebSocket is in wrong order relative to de.htwg.zeta.server.routing.authentication.UnAuthenticatedAction."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AuthenticatedAction is in wrong order relative to de.htwg.zeta.server.routing.authentication.AuthenticatedWebSocket."/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AbstractWebSocket is in wrong order relative to de.htwg.zeta.server.routing.authentication.BasicWebSocket."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.routing.authentication.AbstractAction is in wrong order relative to de.htwg.zeta.server.routing.authentication.AbstractWebSocket."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/authentication/ActionDependencies.scala">
+  <error column="6" line="3" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error column="6" line="3" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/controller/generatorControlForwader/GeneratorControlForwarder.scala">
+  <error column="39" line="22" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="39" line="22" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/style/LineStyle.scala">
+  <error column="50" line="7" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;solid&quot; appears 2 times in the file."/>
+  <error column="48" line="8" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;dot&quot; appears 2 times in the file."/>
+  <error column="49" line="9" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;dash&quot; appears 2 times in the file."/>
+  <error column="42" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="40" line="8" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="41" line="9" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="44" line="10" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="47" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="50" line="7" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;solid&quot; appears 2 times in the file."/>
+  <error column="48" line="8" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;dot&quot; appears 2 times in the file."/>
+  <error column="49" line="9" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;dash&quot; appears 2 times in the file."/>
+  <error column="42" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="40" line="8" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="41" line="9" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="44" line="10" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="47" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgeAttributeEnumTypes.scala">
+  <error column="130" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="130" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/authentication/AbstractWebSocketAPI.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.ActorRef is in wrong order relative to akka.actor.Props."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContent is in wrong order relative to play.api.mvc.Request."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.ActorRef is in wrong order relative to akka.actor.Props."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContent is in wrong order relative to play.api.mvc.Request."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgesNoSources.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/parser/CommonParserMethods.scala">
+  <error line="16" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="21" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="13" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="33" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="37" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="40" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="43" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="44" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="45" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="46" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="51" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="88" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,\\s*(height=)?&quot; appears 2 times in the file."/>
+  <error column="6" line="51" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error line="16" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="21" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="13" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="33" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="37" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="40" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="43" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="44" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="45" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="46" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="51" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="88" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,\\s*(height=)?&quot; appears 2 times in the file."/>
+  <error column="6" line="51" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/style/StyleGenerator.scala">
+  <error column="87" line="112" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ; }&quot;&quot;&quot; appears 4 times in the file."/>
+  <error column="5" line="163" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+      |&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="87" line="112" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ; }&quot;&quot;&quot; appears 4 times in the file."/>
+  <error column="5" line="163" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+      |&quot;&quot;&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/layouts/TextLayout.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.GeoModel."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="0" line="11" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.GeoModel."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/shape/GeneratorShapeAndInlineStyle.scala">
+  <error column="0" line="13" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="6" line="84" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;
+      &quot; appears 7 times in the file."/>
+  <error column="47" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;'] = getStyle('&quot; appears 6 times in the file."/>
+  <error column="94" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;');&quot; appears 6 times in the file."/>
+  <error column="13" line="109" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;style['rect.&quot; appears 2 times in the file."/>
+  <error column="78" line="129" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ').text;\n&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="6" line="23" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="54" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="83" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="94" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="105" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="115" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="125" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="137" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="147" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="0" line="13" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="6" line="84" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;
+      &quot; appears 7 times in the file."/>
+  <error column="47" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;'] = getStyle('&quot; appears 6 times in the file."/>
+  <error column="94" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;');&quot; appears 6 times in the file."/>
+  <error column="13" line="109" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;style['rect.&quot; appears 2 times in the file."/>
+  <error column="78" line="129" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ').text;\n&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="6" line="23" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="54" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="83" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="94" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="105" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="115" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="125" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="137" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="147" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/authentication/AbstractWebSocket.scala">
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.ActorRef is in wrong order relative to akka.actor.Props."/>
+  <error column="0" line="23" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContent is in wrong order relative to play.api.mvc.Controller."/>
+  <error column="0" line="25" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.Request is in wrong order relative to play.api.mvc.Result."/>
+  <error column="0" line="27" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContentAsEmpty is in wrong order relative to play.api.mvc.WebSocket."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.ActorRef is in wrong order relative to akka.actor.Props."/>
+  <error column="0" line="23" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContent is in wrong order relative to play.api.mvc.Controller."/>
+  <error column="0" line="25" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.Request is in wrong order relative to play.api.mvc.Result."/>
+  <error column="0" line="27" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContentAsEmpty is in wrong order relative to play.api.mvc.WebSocket."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/ModelValidationResult.scala">
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsString is in wrong order relative to play.api.libs.json.Json."/>
+  <error column="10" line="39" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 2 times in the file."/>
+  <error column="10" line="40" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 2 times in the file."/>
+  <error column="10" line="41" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;typeName&quot; appears 2 times in the file."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsString is in wrong order relative to play.api.libs.json.Json."/>
+  <error column="10" line="39" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;id&quot; appears 2 times in the file."/>
+  <error column="10" line="40" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;type&quot; appears 2 times in the file."/>
+  <error column="10" line="41" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;typeName&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgesNoAttributes.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgeAttributeScalarTypes.scala">
+  <error column="36" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="36" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot;&quot;&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/silhouette/ZetaIdentity.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/shape/ShapeGenerator.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.entity.File is in wrong order relative to de.htwg.zeta.server.generator.parser.Cache."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.entity.File is in wrong order relative to de.htwg.zeta.server.generator.parser.Cache."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/shape/GeneratorConnectionDefinition.scala">
+  <error column="0" line="17" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="56" line="172" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 2 times in the file."/>
+  <error column="92" line="215" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    }
+    &quot;&quot;&quot; appears 7 times in the file."/>
+  <error column="57" line="247" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="118" line="247" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\&quot;&quot; appears 2 times in the file."/>
+  <error column="107" line="284" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; &quot; appears 32 times in the file."/>
+  <error column="4" line="337" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;M &quot; appears 8 times in the file."/>
+  <error column="63" line="337" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;L &quot; appears 4 times in the file."/>
+  <error column="90" line="344" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;z&quot; appears 2 times in the file."/>
+  <error column="99" line="370" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; l -&quot; appears 2 times in the file."/>
+  <error column="64" line="375" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; 0 0 1 &quot; appears 4 times in the file."/>
+  <error column="53" line="376" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; a &quot; appears 2 times in the file."/>
+  <error column="108" line="376" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; 0 0 1 -&quot; appears 4 times in the file."/>
+  <error column="39" line="378" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; -&quot; appears 4 times in the file."/>
+  <error column="37" line="391" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; a  &quot; appears 4 times in the file."/>
+  <error column="7" line="23" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="113" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="114" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="165" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="0" line="17" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="56" line="172" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 2 times in the file."/>
+  <error column="92" line="215" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    }
+    &quot;&quot;&quot; appears 7 times in the file."/>
+  <error column="57" line="247" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="118" line="247" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\&quot;&quot; appears 2 times in the file."/>
+  <error column="107" line="284" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; &quot; appears 32 times in the file."/>
+  <error column="4" line="337" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;M &quot; appears 8 times in the file."/>
+  <error column="63" line="337" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;L &quot; appears 4 times in the file."/>
+  <error column="90" line="344" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;z&quot; appears 2 times in the file."/>
+  <error column="99" line="370" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; l -&quot; appears 2 times in the file."/>
+  <error column="64" line="375" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; 0 0 1 &quot; appears 4 times in the file."/>
+  <error column="53" line="376" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; a &quot; appears 2 times in the file."/>
+  <error column="108" line="376" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; 0 0 1 -&quot; appears 4 times in the file."/>
+  <error column="39" line="378" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; -&quot; appears 4 times in the file."/>
+  <error column="37" line="391" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; a  &quot; appears 4 times in the file."/>
+  <error column="7" line="23" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="113" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="114" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="165" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/Compartment.scala">
+  <error column="8" line="35" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="36" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="40" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="51" line="88" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\d+&quot; appears 2 times in the file."/>
+  <error column="49" line="92" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;(yes|y|true|no|n|false)&quot; appears 2 times in the file."/>
+  <error column="4" line="32" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="33" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="34" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="35" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="36" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="37" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="38" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="40" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="8" line="35" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="36" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="40" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="51" line="88" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\d+&quot; appears 2 times in the file."/>
+  <error column="49" line="92" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;(yes|y|true|no|n|false)&quot; appears 2 times in the file."/>
+  <error column="4" line="32" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="33" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="34" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="35" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="36" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="37" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="38" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="40" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/NodeInputEdges.scala">
+  <error column="131" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="136" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="142" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="147" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="131" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="136" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="142" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="147" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/authentication/AbstractAction.scala">
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContent is in wrong order relative to play.api.mvc.Request."/>
+  <error column="0" line="15" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.Action is in wrong order relative to play.api.mvc.AnyContent."/>
+  <error column="0" line="18" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.BodyParser is in wrong order relative to play.api.mvc.Result."/>
+  <error column="45" line="359" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="98" line="365" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ))&quot; appears 4 times in the file."/>
+  <error column="4" line="370" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\n&quot; appears 2 times in the file."/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.AnyContent is in wrong order relative to play.api.mvc.Request."/>
+  <error column="0" line="15" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.Action is in wrong order relative to play.api.mvc.AnyContent."/>
+  <error column="0" line="18" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.BodyParser is in wrong order relative to play.api.mvc.Result."/>
+  <error column="45" line="359" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="98" line="365" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ))&quot; appears 4 times in the file."/>
+  <error column="4" line="370" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\n&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/start/CustomApplicationLoader.scala">
+  <error column="0" line="23" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.inject.guice.GuiceApplicationBuilder is in wrong order relative to play.api.inject.guice.GuiceableModule."/>
+  <error column="37" line="88" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;.conf&quot; appears 2 times in the file."/>
+  <error column="0" line="23" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.inject.guice.GuiceApplicationBuilder is in wrong order relative to play.api.inject.guice.GuiceableModule."/>
+  <error column="37" line="88" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;.conf&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/style/gradient/Gradient.scala">
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/action/ActionInclude.scala">
+  <error column="6" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/diagram/LinkhelperGenerator.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="87" line="39" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 4 times in the file."/>
+  <error column="6" line="13" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="87" line="39" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 4 times in the file."/>
+  <error column="6" line="13" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/parser/package.scala">
+  <error column="14" line="16" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="18" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="20" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="28" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="30" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="32" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="34" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="36" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="38" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="40" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="42" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="44" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="16" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="18" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="20" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="28" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="30" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="32" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="34" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="36" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="38" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="40" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="42" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="44" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/node/DiaShape.scala">
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.IDtoShapeSketch is in wrong order relative to de.htwg.zeta.server.generator.parser.ShapeSketch."/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.entity.GraphicalDsl is in wrong order relative to de.htwg.zeta.server.generator.parser.IDtoShapeSketch."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.IDtoShapeSketch is in wrong order relative to de.htwg.zeta.server.generator.parser.ShapeSketch."/>
+  <error column="0" line="10" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.entity.GraphicalDsl is in wrong order relative to de.htwg.zeta.server.generator.parser.IDtoShapeSketch."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/layouts/LineLayout.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Point is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.PointParser."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Point is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.PointParser."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/controller/webpage/WebpageController.scala">
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.persistence.accessRestricted.AccessRestrictedGraphicalDslInstanceRepository is in wrong order relative to de.htwg.zeta.persistence.accessRestricted.AccessRestrictedGraphicalDslRepository."/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.persistence.accessRestricted.AccessRestrictedGraphicalDslInstanceRepository is in wrong order relative to de.htwg.zeta.persistence.accessRestricted.AccessRestrictedGraphicalDslRepository."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/style/gradient/GradientAlignment.scala">
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/layouts/CommonLayout.scala">
+  <error column="6" line="19" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.GeoModel."/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.GeoModel."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/anchor/Anchor.scala">
+  <error column="63" line="38" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\{&quot; appears 2 times in the file."/>
+  <error column="99" line="38" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\}&quot; appears 2 times in the file."/>
+  <error column="141" line="47" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\)\n*&quot; appears 2 times in the file."/>
+  <error column="63" line="38" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\{&quot; appears 2 times in the file."/>
+  <error column="99" line="38" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\}&quot; appears 2 times in the file."/>
+  <error column="141" line="47" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\)\n*&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/action/ActionGroup.scala">
+  <error column="6" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="16" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="16" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/connection/Placing.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.GeometricModel is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Text."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.PlacingSketch."/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.GeometricModel is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Text."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.PlacingSketch."/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/ClassHierarchy.scala">
+  <error column="2" line="13" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="13" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/generator/ConceptConsistencyChecker.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.generator.consistencyRules.ConsistencyRules."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.generator.consistencyRules.ConsistencyRules."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Ellipse.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.CommonLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.CommonLayoutParser."/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.CommonLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.CommonLayoutParser."/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/layouts/RoundedRectangleLayout.scala">
+  <error column="6" line="13" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="31" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="32" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="34" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="35" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="18" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="13" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="31" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="32" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="34" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="25" line="35" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="18" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgeAttributes.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="152" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="152" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/diagram/ValidatorGenerator.scala">
+  <error column="29" line="64" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 8 times in the file."/>
+  <error column="35" line="67" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    },
+    &quot;&quot;&quot; appears 4 times in the file."/>
+  <error column="31" line="93" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    }&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="104" line="103" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;&quot;&quot; appears 5 times in the file."/>
+  <error column="5" line="104" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    &quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="69" line="194" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="39" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="46" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="85" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="100" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="108" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="121" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="157" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="174" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="187" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="47" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="48" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="6" line="257" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="29" line="64" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 8 times in the file."/>
+  <error column="35" line="67" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    },
+    &quot;&quot;&quot; appears 4 times in the file."/>
+  <error column="31" line="93" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    }&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="104" line="103" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;&quot;&quot; appears 5 times in the file."/>
+  <error column="5" line="104" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+    &quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="69" line="194" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="39" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="46" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="85" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="100" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="108" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="121" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="157" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="174" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="187" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="47" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="48" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="6" line="257" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/NodeOutputEdges.scala">
+  <error column="100" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="105" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="111" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="116" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="100" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="105" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="111" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="116" line="16" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/authentication/UnAuthenticatedAction.scala">
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.Request is in wrong order relative to play.api.mvc.Result."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.mvc.Request is in wrong order relative to play.api.mvc.Result."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/shape/GeneratorShapeDefinition.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.collection.AbstractSeq is in wrong order relative to scala.collection.mutable."/>
+  <error column="0" line="19" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.GeometricModel is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Text."/>
+  <error column="77" line="37" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+      |&quot;&quot;&quot; appears 8 times in the file."/>
+  <error column="79" line="88" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 4 times in the file."/>
+  <error column="58" line="119" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;true&quot; appears 3 times in the file."/>
+  <error column="93" line="129" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal },&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="31" line="168" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; /&gt;&quot;&quot;&quot; appears 6 times in the file."/>
+  <error column="68" line="327" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; &quot; appears 2 times in the file."/>
+  <error column="83" line="327" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\npoints: \&quot;&quot; appears 2 times in the file."/>
+  <error column="103" line="327" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\&quot;&quot; appears 2 times in the file."/>
+  <error column="24" line="357" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ,
+      |&quot;&quot;&quot; appears 4 times in the file."/>
+  <error column="7" line="25" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="4" line="100" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="101" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="383" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="429" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="439" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="449" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="483" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="493" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.collection.AbstractSeq is in wrong order relative to scala.collection.mutable."/>
+  <error column="0" line="19" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.GeometricModel is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Text."/>
+  <error column="77" line="37" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+      |&quot;&quot;&quot; appears 8 times in the file."/>
+  <error column="79" line="88" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 4 times in the file."/>
+  <error column="58" line="119" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;true&quot; appears 3 times in the file."/>
+  <error column="93" line="129" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal },&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="31" line="168" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; /&gt;&quot;&quot;&quot; appears 6 times in the file."/>
+  <error column="68" line="327" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; &quot; appears 2 times in the file."/>
+  <error column="83" line="327" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\npoints: \&quot;&quot; appears 2 times in the file."/>
+  <error column="103" line="327" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\&quot;&quot; appears 2 times in the file."/>
+  <error column="24" line="357" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ,
+      |&quot;&quot;&quot; appears 4 times in the file."/>
+  <error column="7" line="25" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 30"/>
+  <error column="4" line="100" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="101" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="383" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="429" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="439" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="449" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="483" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="493" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/style/color/RGBColor.scala">
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/style/Style.scala">
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.style.gradient.Gradient is in wrong order relative to de.htwg.zeta.server.generator.model.style.gradient.GradientColorArea."/>
+  <error column="14" line="56" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="58" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="60" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="62" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="34" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;description&quot; appears 3 times in the file."/>
+  <error column="49" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;transparency&quot; appears 2 times in the file."/>
+  <error column="65" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;background-color&quot; appears 2 times in the file."/>
+  <error column="85" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;line-color&quot; appears 2 times in the file."/>
+  <error column="99" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;line-style&quot; appears 2 times in the file."/>
+  <error column="113" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;line-width&quot; appears 2 times in the file."/>
+  <error column="4" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-color&quot; appears 2 times in the file."/>
+  <error column="18" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-name&quot; appears 2 times in the file."/>
+  <error column="31" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-size&quot; appears 2 times in the file."/>
+  <error column="44" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-bold&quot; appears 2 times in the file."/>
+  <error column="57" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-italic&quot; appears 2 times in the file."/>
+  <error column="72" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;gradient-orientation&quot; appears 2 times in the file."/>
+  <error column="28" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;allowed&quot; appears 4 times in the file."/>
+  <error column="39" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;unallowed&quot; appears 4 times in the file."/>
+  <error column="52" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;selected&quot; appears 4 times in the file."/>
+  <error column="64" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;multiselected&quot; appears 4 times in the file."/>
+  <error column="81" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;highlighting&quot; appears 2 times in the file."/>
+  <error column="32" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;(&quot; appears 5 times in the file."/>
+  <error column="132" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;|&quot; appears 2 times in the file."/>
+  <error column="82" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;=&quot; appears 12 times in the file."/>
+  <error column="4" line="229" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;red&quot; appears 2 times in the file."/>
+  <error column="4" line="234" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;green&quot; appears 2 times in the file."/>
+  <error column="4" line="239" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;blue&quot; appears 2 times in the file."/>
+  <error column="4" line="241" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;transparent&quot; appears 2 times in the file."/>
+  <error column="56" line="260" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 3 times in the file."/>
+  <error column="6" line="113" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="190" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.style.gradient.Gradient is in wrong order relative to de.htwg.zeta.server.generator.model.style.gradient.GradientColorArea."/>
+  <error column="14" line="56" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="58" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="60" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="14" line="62" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="34" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;description&quot; appears 3 times in the file."/>
+  <error column="49" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;transparency&quot; appears 2 times in the file."/>
+  <error column="65" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;background-color&quot; appears 2 times in the file."/>
+  <error column="85" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;line-color&quot; appears 2 times in the file."/>
+  <error column="99" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;line-style&quot; appears 2 times in the file."/>
+  <error column="113" line="50" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;line-width&quot; appears 2 times in the file."/>
+  <error column="4" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-color&quot; appears 2 times in the file."/>
+  <error column="18" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-name&quot; appears 2 times in the file."/>
+  <error column="31" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-size&quot; appears 2 times in the file."/>
+  <error column="44" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-bold&quot; appears 2 times in the file."/>
+  <error column="57" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;font-italic&quot; appears 2 times in the file."/>
+  <error column="72" line="51" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;gradient-orientation&quot; appears 2 times in the file."/>
+  <error column="28" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;allowed&quot; appears 4 times in the file."/>
+  <error column="39" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;unallowed&quot; appears 4 times in the file."/>
+  <error column="52" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;selected&quot; appears 4 times in the file."/>
+  <error column="64" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;multiselected&quot; appears 4 times in the file."/>
+  <error column="81" line="52" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;highlighting&quot; appears 2 times in the file."/>
+  <error column="32" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;(&quot; appears 5 times in the file."/>
+  <error column="132" line="54" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;|&quot; appears 2 times in the file."/>
+  <error column="82" line="56" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;=&quot; appears 12 times in the file."/>
+  <error column="4" line="229" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;red&quot; appears 2 times in the file."/>
+  <error column="4" line="234" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;green&quot; appears 2 times in the file."/>
+  <error column="4" line="239" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;blue&quot; appears 2 times in the file."/>
+  <error column="4" line="241" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;transparent&quot; appears 2 times in the file."/>
+  <error column="56" line="260" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 3 times in the file."/>
+  <error column="6" line="113" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="190" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/RoundedRectangle.scala">
+  <error column="15" line="19" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="20" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="22" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="23" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.RoundedRectangleLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.RoundedRectangleLayoutParser."/>
+  <error column="6" line="36" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="15" line="19" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="20" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="22" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="23" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.RoundedRectangleLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.RoundedRectangleLayoutParser."/>
+  <error column="6" line="36" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/shape/GeneratorInspectorDefinition.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error column="36" line="98" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;.&quot; appears 7 times in the file."/>
+  <error column="79" line="232" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ',
+      |    index: 4,
+      |    label: 'Stroke Dash Line'
+      |  }
+      |})
+      |&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="66" line="246" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+      | })
+      |&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="4" line="47" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="48" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 500 lines"/>
+  <error column="36" line="98" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;.&quot; appears 7 times in the file."/>
+  <error column="79" line="232" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal ',
+      |    index: 4,
+      |    label: 'Stroke Dash Line'
+      |  }
+      |})
+      |&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="66" line="246" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal 
+      | })
+      |&quot;&quot;&quot; appears 2 times in the file."/>
+  <error column="4" line="47" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="48" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Text.scala">
+  <error column="15" line="25" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="26" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.TextLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.TextLayoutParser."/>
+  <error column="6" line="48" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="59" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="15" line="25" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="26" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.TextLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.TextLayoutParser."/>
+  <error column="6" line="48" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="4" line="59" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/controller/restApi/RestApiController.scala">
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsonValidationError is in wrong order relative to play.api.libs.json.Reads."/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="play.api.libs.json.JsonValidationError is in wrong order relative to play.api.libs.json.Reads."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Rectangle.scala">
+  <error column="15" line="24" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="25" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.CommonLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.RectangleEllipseLayout."/>
+  <error column="6" line="35" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="15" line="24" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="15" line="25" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.CommonLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.RectangleEllipseLayout."/>
+  <error column="6" line="35" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/NodeAttributeEnumTypes.scala">
+  <error column="130" line="17" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="130" line="17" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelIndependent/NodesAttributesNamesNotEmpty.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.model.elements.Node is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleNodeRule."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.model.elements.Node is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleNodeRule."/>
+ </file>
+ <file name="/app/server/app/controllers/ScalaRoutes.scala">
+  <error line="226" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="228" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="218" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="226" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="228" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="230" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error line="226" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="228" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="218" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="226" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="228" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="230" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/connection/shapeconnections/CDText.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/node/Node.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionInclude."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.methodes.OnDelete is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.methodes.OnUpdate."/>
+  <error column="0" line="13" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference is in wrong order relative to de.htwg.zeta.server.generator.model.style.Style."/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MClass is in wrong order relative to de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionInclude."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.methodes.OnDelete is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.methodes.OnUpdate."/>
+  <error column="0" line="13" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference is in wrong order relative to de.htwg.zeta.server.generator.model.style.Style."/>
+  <error column="0" line="14" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MClass is in wrong order relative to de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/parser/Cache.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionGroup."/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="29" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="29" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionGroup."/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="29" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^\$?[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="29" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/PolyLine.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayoutParser."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayoutParser."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelIndependent/EdgesAttributesNamesNotEmpty.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.model.elements.Edge is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.model.elements.Edge is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/action/Action.scala">
+  <error column="6" line="6" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="6" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/controller/WebAppController.scala">
+  <error column="24" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+  <error column="24" line="32" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelIndependent/ElementsIdsUnique.scala">
+  <error column="4" line="18" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="4" line="18" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/connection/shapeconnections/CDPolyLine.scala">
+  <error column="2" line="16" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="2" line="16" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/util/route/Binders.scala">
+  <error column="8" line="16" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="16" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/Edges.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="108" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="113" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="119" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="124" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="108" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="113" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="119" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="124" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/NodeAttributeScalarTypes.scala">
+  <error column="117" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="117" line="27" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/style/color/Color.scala">
+  <error source="org.scalastyle.scalariform.NumberOfTypesChecker" severity="warning" message="Number of types declared in the file exceeds 20"/>
+  <error source="org.scalastyle.scalariform.NumberOfTypesChecker" severity="warning" message="Number of types declared in the file exceeds 20"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/WebControllerContainer.scala">
+  <error column="0" line="27" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.controller.restApi.GraphicalDslRestApi is in wrong order relative to de.htwg.zeta.server.controller.restApi.MetaModelReleaseRestApi."/>
+  <error column="0" line="27" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.controller.restApi.GraphicalDslRestApi is in wrong order relative to de.htwg.zeta.server.controller.restApi.MetaModelReleaseRestApi."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Description.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="4" line="34" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="35" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="36" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="37" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.HAlign is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Alignment.VAlign."/>
+  <error column="4" line="34" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="35" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="36" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="37" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/generators/diagram/StencilGenerator.scala">
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups scala and others."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.util.Success is in wrong order relative to scala.util.Try."/>
+  <error column="43" line="46" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 4 times in the file."/>
+  <error column="30" line="176" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\W&quot; appears 2 times in the file."/>
+  <error column="2" line="17" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="4" line="38" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="40" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="163" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should at least one a single empty line separating groups scala and others."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="scala.util.Success is in wrong order relative to scala.util.Try."/>
+  <error column="43" line="46" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;,&quot; appears 4 times in the file."/>
+  <error column="30" line="176" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;\\W&quot; appears 2 times in the file."/>
+  <error column="2" line="17" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+  <error column="4" line="38" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="40" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="4" line="163" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/edge/Edge.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionInclude."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.methodes.OnCreate is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.methodes.OnUpdate."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.methodes.Methodes is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.methodes.OnCreate."/>
+  <error column="0" line="13" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MClass is in wrong order relative to de.htwg.zeta.server.generator.model.style.Style."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionInclude."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.methodes.OnCreate is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.methodes.OnUpdate."/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.methodes.Methodes is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.methodes.OnCreate."/>
+  <error column="0" line="13" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MClass is in wrong order relative to de.htwg.zeta.server.generator.model.style.Style."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgesNoTargets.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/start/DevelopmentStarter.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="java.net.URL is in wrong order relative to java.net.URLClassLoader."/>
+  <error column="46" line="192" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="41" line="68" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;api/generatorControl&quot; appears 2 times in the file."/>
+  <error column="50" line="85" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 4 times in the file."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="java.net.URL is in wrong order relative to java.net.URLClassLoader."/>
+  <error column="46" line="192" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="41" line="68" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;api/generatorControl&quot; appears 2 times in the file."/>
+  <error column="50" line="85" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot; appears 4 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/NodeAttributes.scala">
+  <error column="134" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="139" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="145" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="150" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="134" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="139" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="145" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="150" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/Nodes.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleNodeRule."/>
+  <error column="108" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="113" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="119" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="124" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleNodeRule."/>
+  <error column="108" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="113" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="119" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="124" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/WebController.scala">
+  <error column="21" line="36" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="37" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="38" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="39" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="40" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="41" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="42" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="43" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="44" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="45" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="46" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="47" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="48" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="49" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="50" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="51" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="52" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="53" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="54" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="55" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="56" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="57" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="58" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="59" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="60" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="61" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="24" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.controller.restApi.GraphicalDslRestApi is in wrong order relative to de.htwg.zeta.server.controller.restApi.MetaModelReleaseRestApi."/>
+  <error column="21" line="36" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="37" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="38" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="39" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="40" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="41" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="42" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="43" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="44" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="45" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="46" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="47" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="48" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="49" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="50" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="51" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="52" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="53" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="54" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="55" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="56" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="57" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="58" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="59" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="60" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="21" line="61" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="24" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.controller.restApi.GraphicalDslRestApi is in wrong order relative to de.htwg.zeta.server.controller.restApi.MetaModelReleaseRestApi."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/controller/SignUpController.scala">
+  <error column="0" line="22" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.silhouette.SilhouetteLoginInfoDao is in wrong order relative to de.htwg.zeta.server.silhouette.ZetaIdentity."/>
+  <error column="22" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;email.from&quot; appears 2 times in the file."/>
+  <error column="0" line="22" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.silhouette.SilhouetteLoginInfoDao is in wrong order relative to de.htwg.zeta.server.silhouette.ZetaIdentity."/>
+  <error column="22" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;email.from&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/silhouette/SilhouetteModule.scala">
+  <error column="0" line="16" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="com.mohiva.play.silhouette.api.crypto.Crypter is in wrong order relative to com.mohiva.play.silhouette.api.crypto.Signer."/>
+  <error column="0" line="31" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="com.mohiva.play.silhouette.crypto.JcaCrypter is in wrong order relative to com.mohiva.play.silhouette.crypto.JcaSignerSettings."/>
+  <error column="0" line="46" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="net.ceedubs.ficus.readers.ArbitraryTypeReader.arbitraryTypeValueReader is in wrong order relative to net.ceedubs.ficus.readers.ValueReader."/>
+  <error column="0" line="16" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="com.mohiva.play.silhouette.api.crypto.Crypter is in wrong order relative to com.mohiva.play.silhouette.api.crypto.Signer."/>
+  <error column="0" line="31" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="com.mohiva.play.silhouette.crypto.JcaCrypter is in wrong order relative to com.mohiva.play.silhouette.crypto.JcaSignerSettings."/>
+  <error column="0" line="46" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="net.ceedubs.ficus.readers.ArbitraryTypeReader.arbitraryTypeValueReader is in wrong order relative to net.ceedubs.ficus.readers.ValueReader."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgeTargetNodes.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="133" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="138" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="144" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="149" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="133" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="138" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="144" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="149" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Point.scala">
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="6" line="15" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="6" line="15" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/routing/authentication/AuthenticatedAction.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="com.mohiva.play.silhouette.api.Authorization is in wrong order relative to com.mohiva.play.silhouette.api.HandlerResult."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="com.mohiva.play.silhouette.api.Authorization is in wrong order relative to com.mohiva.play.silhouette.api.HandlerResult."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/actor/AbstractMediatorActor.scala">
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.Actor is in wrong order relative to akka.actor.ActorRef."/>
+  <error column="4" line="35" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+  <error column="0" line="6" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="akka.actor.Actor is in wrong order relative to akka.actor.ActorRef."/>
+  <error column="4" line="35" source="org.scalastyle.scalariform.VarLocalChecker" severity="warning" message="Avoid mutable local variables"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/edge/Connection.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.IDtoConnectionSketch is in wrong order relative to de.htwg.zeta.server.generator.parser.PropsAndComps."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference is in wrong order relative to de.htwg.zeta.server.generator.parser.IDtoConnectionSketch."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.IDtoConnectionSketch is in wrong order relative to de.htwg.zeta.server.generator.parser.PropsAndComps."/>
+  <error column="0" line="8" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.elements.MReference is in wrong order relative to de.htwg.zeta.server.generator.parser.IDtoConnectionSketch."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/layouts/PolyLineLayout.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Point is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.PointParser."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.Point is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.PointParser."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/diagram/methodes/Methode.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionGroup."/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.diagram.action.Action is in wrong order relative to de.htwg.zeta.server.generator.model.diagram.action.ActionGroup."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Polygon.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayoutParser."/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.PolyLineLayoutParser."/>
+  <error column="6" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/connection/Connection.scala">
+  <error column="8" line="52" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.PlacingSketch."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+  <error column="8" line="52" source="org.scalastyle.scalariform.FieldNamesChecker" severity="warning" message="Field name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="0" line="9" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.parser.CommonParserMethods is in wrong order relative to de.htwg.zeta.server.generator.parser.PlacingSketch."/>
+  <error column="0" line="12" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="There should be no empty line separating imports in the same group."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/model/modelValidator/validator/rules/metaModelDependent/EdgeSourceNodes.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="133" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="138" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="144" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="149" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+  <error column="0" line="7" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.common.models.modelDefinitions.metaModel.Concept is in wrong order relative to de.htwg.zeta.server.model.modelValidator.validator.rules.SingleEdgeRule."/>
+  <error column="133" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;{&quot; appears 2 times in the file."/>
+  <error column="138" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;, &quot; appears 2 times in the file."/>
+  <error column="144" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;}&quot; appears 2 times in the file."/>
+  <error column="149" line="15" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal .&quot; appears 2 times in the file."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/controller/SignInController.scala">
+  <error column="0" line="20" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.silhouette.SilhouetteLoginInfoDao is in wrong order relative to de.htwg.zeta.server.silhouette.ZetaIdentity."/>
+  <error column="0" line="20" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.silhouette.SilhouetteLoginInfoDao is in wrong order relative to de.htwg.zeta.server.silhouette.ZetaIdentity."/>
+ </file>
+ <file name="/app/server/app/de/htwg/zeta/server/generator/model/shapecontainer/shape/geometrics/Line.scala">
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.LineLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.LineLayoutParser."/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="21" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.ImportOrderChecker" severity="warning" message="de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.LineLayout is in wrong order relative to de.htwg.zeta.server.generator.model.shapecontainer.shape.geometrics.layouts.LineLayoutParser."/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="21" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="22" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+</checkstyle>
