@@ -1,5 +1,5 @@
 
-\documentclass[11pt,a4paper]{report}                                   
+\documentclass[11pt,a4paper,german]{report}                                   
 
 \usepackage[T1]{fontenc}
 \usepackage{kpfonts}
@@ -7,17 +7,22 @@
 \usepackage[hyphens]{url}
 \usepackage{graphicx}
 \usepackage{a4}
-\usepackage[english]{babel}
+\usepackage[german]{babel}
 \usepackage{subfiles}
 \usepackage{acronym}
 \usepackage{tocbibind}
 \usepackage{cmap}
 \usepackage{listingsutf8}
 \usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hypcap=false]{caption}
+\usepackage{amsfonts}
+\usepackage{multicol}
+\usepackage{microtype}
 
 \newcommand{\thema}{Architektur für ein webbasiertes graphisches Modellierungsframework}
 \newcommand{\schlagworte}{Modelgetriebene Softwareentwicklung, Webapplikation, Architektur}
-\newcommand{\zusammenfassung}{TBD}
+\newcommand{\zusammenfassung}{Diese Arbeit befasst sich mit der Fragestellung wie kann die Architektur für ein webbasiertes graphisches Modellierungsframework aussehen? Zu diesem Zweck wird die Architektur einer schon bestehenden Lösung vorgestellt. Das generische Werkzeuge für domänenspezifische Grafische Sprachen namens Zeta ist diese schon bestehende Lösung. Speziell wird auch auf die Konfiguration der allgemeinen Laufzeitumgebung von Zeta und die Isolierung der benutzerdefinierten Generatoren über eine Containervirtualisierung eingegangen. Im weiteren Verlauf dieser Arbeit wird die Architektur samt Laufzeitumgebung tiefergehender anhand von Entwurfsmustern und Best Practices bewertet und auf etwaige problematische Lösungen eingegangen. Abschließend wird eine überarbeitete Lösung für die Architektur von Zeta vorgestellt. }
 \newcommand{\ausgabedatum}{01.10.2017}
 \newcommand{\abgabedatum}{01.04.2018}
 \newcommand{\autor}{Philipp Daniels}
@@ -41,9 +46,9 @@
     pdfkeywords	={}, % list of keywords
     pdfcreator	={}, % creator of the document
     pdfproducer	={}, % producer of the document
-    colorlinks=false, % false: boxed links; true: colored links
-    linkcolor=red, % color of internal links (change box color with linkbordercolor)
-    citecolor=green, % color of links to bibliography
+    colorlinks=true, % false: boxed links; true: colored links
+    linkcolor=blue, % color of internal links (change box color with linkbordercolor)
+    citecolor=blue, % color of links to bibliography
     filecolor=magenta, % color of file links
     urlcolor=cyan, % color of external links
     unicode=true, % non-Latin characters in Acrobat’s bookmarks
@@ -56,6 +61,8 @@
 \definecolor{lightgray}{rgb}{.9,.9,.9}
 \definecolor{darkgray}{rgb}{.4,.4,.4}
 \definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{light-gray}{gray}{0.95}
+
 \lstdefinelanguage{JavaScript}{
   keywords={break, case, catch, class, continue, const, constructor, debugger, default, delete, do, else, export, false, finally, for, function, get, if, import, in, instanceof, let, new, null, return, switch, this, throw, true, try, typeof, var, void, while},
   morecomment=[l]{//},
@@ -71,6 +78,7 @@
 
 \lstset{
     basicstyle=\footnotesize,
+    backgroundcolor=\color{light-gray},
     breakatwhitespace=false,
     breaklines=true,
     captionpos=b,
@@ -83,8 +91,33 @@
     showtabs=false,
     stepnumber=1,
     tabsize=2,
-    title=\lstname,
-    inputencoding=utf8/latin1
+    inputencoding=utf8/latin1,
+    extendedchars=true
+}
+
+\lstdefinelanguage{docker-compose}{
+  keywords={version, volumes, services,image, environment, ports, container_name, ports, links, build, command},
+  keywordstyle=\color{blue}\bfseries,
+  keywords=[2]{\:},
+  keywordstyle=[2]\color{olive}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{\#},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+\lstdefinelanguage{dockerfile}{
+  keywords={FROM, RUN, COPY, ENTRYPOINT, CMD,  ENV, WORKDIR, EXPOSE, LABEL, USER, VOLUME, STOPSIGNAL, ONBUILD, MAINTAINER},
+  keywordstyle=\color{blue}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{\#},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
 }
 
 \newcommand{\theHchoice}{\arabic{question}.\arabic{choice}}
@@ -111,12 +144,16 @@
 \setcounter{page}{1}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
-\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\baselinestretch}{1}
 \renewcommand\chaptername{Kapitel}
 \renewcommand{\figurename}{Abbildung}
+\renewcommand{\lstlistingname}{Programmcode}
 \include{content/introduction}
 \include{content/fundamentals}
-\include{content/solution}
+\include{content/initial-architecture}
+\include{content/review}
+\include{content/target-architecture}
+
 \include{content/summary}
 
 \include{content/appendix}

@@ -1,14 +1,13 @@
-\renewcommand\thesection{A.\arabic{section}}
-\renewcommand\thesubsection{\thesection.\arabic{subsection}}
-
 \chapter*{Anhänge}
 \label{chap:APPENDIX}
 \addcontentsline{toc}{chapter}{Anhänge}
+\stepcounter{chapter}
+\renewcommand\thesection{A.\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
 \renewcommand{\thepage}{A-\arabic{page}}
-
 
 \section{Abbildungen}
 \label{sec:APPENDIX_FIGURES}
@@ -17,5 +16,33 @@
 \label{sec:APPENDIX_LISTINGS}
 
 \renewcommand{\baselinestretch}{1}
+
+\subsection{Bash-Script stats.sh - Ausgangszustand}
+\label{subsec:APPENDIX_LISTINGS_STATS_OLD}
+\lstinputlisting[nolol=true, title=Ausgangszustand - stats.sh]{listings/stats.old.sh}
+
+\subsection{Bash-Script stats.sh Aufrufe pro Typ}
+\label{subsec:APPENDIX_LISTINGS_STATS_EXECS}
+\lstinputlisting[nolol=true, title=Aufrufe von stats.sh]{listings/stats.exec.txt}
+
+\subsection{Bash-Script stats.sh - Zielzustand}
+\label{subsec:APPENDIX_LISTINGS_STATS_NEW}
+\lstinputlisting[nolol=true, title=Zielzustand - stats.sh]{listings/stats.new.sh}
+
+\subsection{Scala Compiler Flags}
+\label{subsec:APPENDIX_LISTINGS_SCALAC_FLAGS}
+\lstinputlisting[nolol=true, title=Ausgabe der Scala Compiler Flags via \ac{sbt} Shell]{listings/scalac-flags.txt}
+
+\subsection{Kompilierung der Tests für Backend Unterprojekt - Ausgangszustand}
+\label{subsec:APPENDIX_LISTINGS_OLD_BACKEND_COMPILE}
+\lstinputlisting[nolol=true, title=Ausgangszustand - Kompilierung der Tests für \textit{Backend} Unterprojekt]{listings/backend-test-compile-old.log}
+
+\subsection{Ausführung der Tests im Server Unterprojekt - Ausgangszustand}
+\label{subsec:APPENDIX_LISTINGS_OLD_SERVER_TEST}
+\lstinputlisting[nolol=true, title=Ausgaben zur Laufzeit von ScalaTest im \textit{Server} Unterprojekt]{listings/server-test-run-old.log}
+
+\subsection{Docker Laufzeitverhalten von hello-world Image}
+\label{subsec:APPENDIX_LISTINGS_DOCKER_HELLO_WORLD}
+\lstinputlisting[nolol=true, title=Docker Laufzeitverhalten von hello-world Image]{listings/docker-hello-world-time.log}
 
 \clearpage
